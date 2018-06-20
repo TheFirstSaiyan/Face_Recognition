@@ -94,8 +94,8 @@ public class MainActivity extends AppCompatActivity {
     private HandlerThread mBackgroundThread;
     ImageView imgview;
     int []images= {R.drawable.h1,R.drawable.h2};
-    String app_id="b456c74a";
-    String api_key="96aa677d5ad75efaf599bec35ec1ec6a";
+    String app_id="YOUR APP_ID FROM KAIROS ";
+    String api_key="YOUR APP KEY FROM KAIROS";
     Kairos kairos=new Kairos();
 
 
@@ -336,8 +336,6 @@ Log.i("wid",Integer.toString(image.getWidth()));
                 }
                 private void recognize(String path)
                 {
-//                    String app_id="b456c74a";
-//                    String api_key="96aa677d5ad75efaf599bec35ec1ec6a";
                     KairosListener listener = new KairosListener() {
 
                         @Override
