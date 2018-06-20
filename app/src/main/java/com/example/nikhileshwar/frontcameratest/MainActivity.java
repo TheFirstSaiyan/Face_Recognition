@@ -272,7 +272,7 @@ Log.i("wid",Integer.toString(image.getWidth()));
                                         JSONObject mJsonObjectProperty = mJsonArrayProperty.getJSONObject(i);
                                         if(mJsonObjectProperty.getDouble("confidence")>0.7) {
 
-                                            //link to your activities here EAUGENE!!!!!
+                                            
                                             //permission granted!!!
 
                                             Log.i("confidence :", String.valueOf(mJsonObjectProperty.getDouble("confidence")));
