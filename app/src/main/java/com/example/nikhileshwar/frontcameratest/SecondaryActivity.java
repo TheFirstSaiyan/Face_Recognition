@@ -27,8 +27,8 @@
 //
 //public class SecondaryActivity extends Activity {
 //    Kairos kairos=new Kairos();
-//    String app_id="b456c74a";
-//    String api_key="96aa677d5ad75efaf599bec35ec1ec6a";
+//    String app_id="YOUR APP_ID FROM KAIROS";
+//    String api_key="YOUR APP KEY FROM KAIROS";
 //    int []images= {R.drawable.h1,R.drawable.h2};
 //    ImageView imag;
 //    private class Enroll extends AsyncTask<Object, Object, Void>
